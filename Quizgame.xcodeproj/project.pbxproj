@@ -12,6 +12,9 @@
 		10B8CD6020BA75A2006C56F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B8CD5E20BA75A2006C56F3 /* Main.storyboard */; };
 		10B8CD6220BA75A4006C56F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B8CD6120BA75A4006C56F3 /* Assets.xcassets */; };
 		10B8CD6520BA75A4006C56F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B8CD6320BA75A4006C56F3 /* LaunchScreen.storyboard */; };
+		10B8CD7120BA7A94006C56F3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8CD7020BA7A94006C56F3 /* QuizViewController.swift */; };
+		10B8CD7320BA7AB2006C56F3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8CD7220BA7AB2006C56F3 /* ResultViewController.swift */; };
+		10B8CD7520BA97D5006C56F3 /* loveswift.csv in Resources */ = {isa = PBXBuildFile; fileRef = 10B8CD7420BA97D4006C56F3 /* loveswift.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		10B8CD6120BA75A4006C56F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B8CD6420BA75A4006C56F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10B8CD6620BA75A4006C56F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B8CD7020BA7A94006C56F3 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		10B8CD7220BA7AB2006C56F3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		10B8CD7420BA97D4006C56F3 /* loveswift.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = loveswift.csv; path = ../../../Downloads/loveswift.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				10B8CD5C20BA75A2006C56F3 /* ViewController.swift */,
 				10B8CD5E20BA75A2006C56F3 /* Main.storyboard */,
 				10B8CD6120BA75A4006C56F3 /* Assets.xcassets */,
+				10B8CD7020BA7A94006C56F3 /* QuizViewController.swift */,
+				10B8CD7420BA97D4006C56F3 /* loveswift.csv */,
+				10B8CD7220BA7AB2006C56F3 /* ResultViewController.swift */,
 				10B8CD6320BA75A4006C56F3 /* LaunchScreen.storyboard */,
 				10B8CD6620BA75A4006C56F3 /* Info.plist */,
 			);
@@ -124,6 +133,7 @@
 			files = (
 				10B8CD6520BA75A4006C56F3 /* LaunchScreen.storyboard in Resources */,
 				10B8CD6220BA75A4006C56F3 /* Assets.xcassets in Resources */,
+				10B8CD7520BA97D5006C56F3 /* loveswift.csv in Resources */,
 				10B8CD6020BA75A2006C56F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B8CD7120BA7A94006C56F3 /* QuizViewController.swift in Sources */,
 				10B8CD5D20BA75A2006C56F3 /* ViewController.swift in Sources */,
 				10B8CD5B20BA75A2006C56F3 /* AppDelegate.swift in Sources */,
+				10B8CD7320BA7AB2006C56F3 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
